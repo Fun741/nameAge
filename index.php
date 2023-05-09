@@ -2,9 +2,9 @@
     //print_r($_GET);
     //include 'main.css';
     
-    $firstname = htmlspecialchars($_GET['first']);
-    $lastname = htmlspecialchars($_GET['last']);
-    $age = htmlspecialchars($_GET['age']);
+    //$firstname = htmlspecialchars($_GET['first']);
+    //$lastname = htmlspecialchars($_GET['last']);
+    //$age = htmlspecialchars($_GET['age']);
 
     $firstname = filter_input(INPUT_GET, 'first', FILTER_SANITIZE_STRING);
     $lastname = filter_input(INPUT_GET, 'last', FILTER_SANITIZE_STRING);
